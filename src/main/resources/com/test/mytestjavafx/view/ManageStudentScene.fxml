@@ -9,14 +9,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.StackPane?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.mytestjavafx.controller.ManageStudentController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.mytestjavafx.controller.ManageStudentController">
    <children>
-      <VBox prefHeight="720.0" prefWidth="280.0" style="-fx-background-color: #30475E;" />
-      <TableView fx:id="studentsTable" layoutX="305.0" layoutY="113.0" prefHeight="559.0" prefWidth="950.0" style="-fx-background-color: F5F5F5;">
+      <TableView fx:id="studentsTable" layoutX="15.0" layoutY="113.0" prefHeight="559.0" prefWidth="950.0" style="-fx-background-color: F5F5F5;">
         <columns>
           <TableColumn fx:id="idCol" prefWidth="20.799958050251007" text="Id" />
           <TableColumn fx:id="nameCol" prefWidth="98.93340682983398" text="Ho va ten" />
@@ -33,7 +31,7 @@
             <TableColumn fx:id="classNameCol" prefWidth="45.3333740234375" text="Lop" />
         </columns>
       </TableView>
-      <HBox alignment="BOTTOM_LEFT" layoutX="302.0" layoutY="16.0" prefHeight="84.0" prefWidth="954.0">
+      <HBox alignment="BOTTOM_LEFT" layoutX="22.0" layoutY="16.0" prefHeight="84.0" prefWidth="954.0">
          <children>
             <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="84.0" prefWidth="672.0" style="-fx-background-color: F5F5F5;" text="DANH SÁCH HỌC VIÊN" textAlignment="CENTER" wrapText="true">
                <font>
@@ -88,7 +86,7 @@
             </HBox>
          </children>
       </HBox>
-      <StackPane layoutX="1114.0" layoutY="548.0" prefHeight="140.0" prefWidth="140.0">
+      <StackPane layoutX="834.0" layoutY="548.0" prefHeight="140.0" prefWidth="140.0">
          <children>
             <Button mnemonicParsing="false" onMouseClicked="#onAddStudentClick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #30475E; -fx-background-radius: 10;" textFill="WHITE">
                <font>
