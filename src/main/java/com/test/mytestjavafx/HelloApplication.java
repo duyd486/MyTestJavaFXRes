@@ -19,8 +19,6 @@ public class HelloApplication extends Application {
             Image icon = new Image("GermLogo.png");
             stage.getIcons().add(icon);
             stage.setTitle("Hello!!!!");
-            stage.setWidth(1280);
-            stage.setHeight(720);
             stage.setResizable(false);
             stage.setScene(scene);
             stage.show();
